@@ -1,5 +1,58 @@
 <script setup>
 import { ref } from "vue";
+
+const questions = [
+    {
+        question: "What is the capital of France?",
+        options: ["Paris", "Berlin", "Madrid", "Rome"],
+        correctAnswer: "Paris"
+    },
+    {
+        question: "Which planet is known as the Red Planet?",
+        options: ["Earth", "Mars", "Jupiter", "Venus"],
+        correctAnswer: "Mars"
+    },
+    {
+        question: "In which year did World War II end?",
+        options: ["1943", "1945", "1950", "1939"],
+        correctAnswer: "1945"
+    },
+    {
+        question: "What is the largest mammal in the world?",
+        options: ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+        correctAnswer: "Blue Whale"
+    },
+    {
+        question: "Who wrote 'Romeo and Juliet'?",
+        options: ["William Shakespeare", "Jane Austen", "Charles Dickens", "Leo Tolstoy"],
+        correctAnswer: "William Shakespeare"
+    },
+    {
+        question: "What is the capital of Japan?",
+        options: ["Beijing", "Seoul", "Tokyo", "Bangkok"],
+        correctAnswer: "Tokyo"
+    },
+    {
+        question: "Which element has the chemical symbol 'H'?",
+        options: ["Helium", "Hydrogen", "Hassium", "Hafnium"],
+        correctAnswer: "Hydrogen"
+    },
+    {
+        question: "Who painted the Mona Lisa?",
+        options: ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+        correctAnswer: "Leonardo da Vinci"
+    },
+    {
+        question: "What is the currency of Brazil?",
+        options: ["Euro", "Dollar", "Yen", "Real"],
+        correctAnswer: "Real"
+    },
+    {
+        question: "What is the largest ocean on Earth?",
+        options: ["Atlantic Ocean", "Indian Ocean", "Southern Ocean", "Pacific Ocean"],
+        correctAnswer: "Pacific Ocean"
+    }
+];
 </script>
 
 
