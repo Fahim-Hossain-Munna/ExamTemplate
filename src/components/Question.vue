@@ -136,7 +136,6 @@ const submitAns = ()=>{
 
 
 <template>
-{{ans}}
         <div class="max-w-md mx-auto py-8">
             <div class="flex justify-between items-center">
                 <h1 class="text-2xl font-bold mb-4">Online Exam</h1>
