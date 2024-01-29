@@ -210,9 +210,23 @@ const submitAns = ()=>{
             </div>
             <!-- Modal body -->
             <div class="p-4 md:p-5 space-y-4">
-                <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                    Congretulations, <i class="fa-solid fa-mug-hot"></i>
+                <p class="flex justify-center items-center text-2xl leading-relaxed text-gray-500 dark:text-gray-400 gap-2">
+                    <span class="text-[#1B9C85] font-bold">Congretulations,</span><i class="fa-solid fa-graduation-cap  text-[#2D4356]"></i>
                 </p>
+                <div class="flex justify-center items-center">
+                    <i class="fa-solid fa-star text-4xl text-[#F4D160]"></i>
+                    <i class="fa-solid fa-star text-4xl text-[#F4D160]"></i>
+                    <i class="fa-solid fa-star text-4xl text-[#F4D160]"></i>
+                    <i class="fa-solid fa-star text-4xl text-[#F4D160]"></i>
+                    <i class="fa-solid fa-star text-4xl text-[#F4D160]"></i>
+                </div>
+                <div class="flex justify-center items-center gap-4">
+                    <img class="w-10 h-10 rounded-full" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="">
+                    <div class="font-medium dark:text-white">
+                        <div>Mr. Guest</div>
+                        <div class="text-sm text-gray-500 dark:text-gray-400">Your Result/Mark is : <span class="text-xl text-[#AF2655]">{{ ans }}</span> out of 50</div>
+                    </div>
+                </div>
             </div>
             <!-- Modal footer -->
             <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b dark:border-gray-600">
